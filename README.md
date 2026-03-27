@@ -1,83 +1,26 @@
-# Sembark Shop – Modern E-commerce Web App
+##  GitHub Repository
 
-Sembark Shop is a modern full-stack e-commerce web application built using the MERN stack. It provides users with a seamless shopping experience including product browsing, filtering, searching, and cart management with real-time updates.
-
----
-
-## Live Features
-
- **Product Listing** – Fetch products dynamically from API
- **Search & Filter** – Find products easily by category or keyword
- **Add to Cart** – Add/remove items with global state management
- **Quantity Control** – Increase/decrease items in cart
- **Dynamic Pricing** – Real-time subtotal, tax & total calculation
- **Product Detail Modal** – View full product info in popup
- **Cart Management** – Clean and interactive cart UI
- **Context API** – No prop drilling, global state handling
- **Responsive UI** – Built with Tailwind CSS
+Project Link:
+https://github.com/ayushpachare/Sembark_Shop
 
 ---
 
-##  Tech Stack
+##  How to Run the Project Locally
 
-### Frontend
-
-* React.js
-* Tailwind CSS
-* React Icons
-
-### Backend
-
-* Node.js
-* Express.js
-* TypeScript
-
-### State Management
-
-* React Context API
-
-### API
-
-* Fake Store API → https://fakestoreapi.com
+Follow the steps below to set up and run the project on your system:
 
 ---
 
-##  Folder Structure
-
-```bash
-Sembark/
-├── client/
-│   ├── component/
-│   ├── context/
-│   ├── page/
-│   └── App.jsx
-│
-├── server/
-│   ├── controller/
-│   ├── route/
-│   ├── api/
-│   └── index.ts
-```
-
----
-
-##  Installation & Setup
-
-###  Clone the repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/ayushpachare/Sembark_Shop.git
+cd Sembark_Shop
 ```
 
-###  Setup Frontend
+---
 
-```bash
-cd client
-npm install
-npm run dev
-```
-
-###  Setup Backend
+###  Setup Backend (Server)
 
 ```bash
 cd server
@@ -85,41 +28,45 @@ npm install
 npx ts-node index.ts
 ```
 
+ Server will run on:
+http://localhost:3030
+
 ---
 
-## API Endpoint
+### 3️Setup Frontend (Client)
+
+Open a new terminal:
 
 ```bash
-GET /api/products
+cd client
+npm install
+npm run dev
+```
+
+✔ Frontend will run on:
+http://localhost:5173
+
+---
+
+###  API Endpoint
+
+```bash
+GET http://localhost:3030/api/products
 ```
 
 ---
 
-## Key Learnings
+## Notes
 
-* State management using Context API
-* Handling real-time UI updates
-* API integration with TypeScript
-* Component-based scalable architecture
-* Full-stack communication (frontend ↔ backend)
+* Make sure Node.js is installed
+* Backend must be running before frontend
+* If port changes, update API URL in frontend
 
 ---
 
-##  Author
+##  Final Result
 
-**Ayush Pachare**
-
- [ayushpacharee125@gmail.com](mailto:ayushpacharee125@gmail.com)
- 7898665795
-
----
-
-##  Show Your Support
-
-If you like this project, give it a on GitHub!
-
----
-
-## 🏁 Conclusion
-
-This project demonstrates strong full-stack development skills including API handling, state management, UI design, and scalable architecture.
+* Open browser → http://localhost:5173
+* Browse products
+* Add to cart
+* View cart & update quantity
