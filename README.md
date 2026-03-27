@@ -1,24 +1,24 @@
-# 🛍️ Sembark Shop – Modern E-commerce Web App
+# Sembark Shop – Modern E-commerce Web App
 
 Sembark Shop is a modern full-stack e-commerce web application built using the MERN stack. It provides users with a seamless shopping experience including product browsing, filtering, searching, and cart management with real-time updates.
 
 ---
 
-## 🚀 Live Features
+## Live Features
 
-✨ **Product Listing** – Fetch products dynamically from API
-🔍 **Search & Filter** – Find products easily by category or keyword
-🛒 **Add to Cart** – Add/remove items with global state management
-🔢 **Quantity Control** – Increase/decrease items in cart
-💰 **Dynamic Pricing** – Real-time subtotal, tax & total calculation
-👀 **Product Detail Modal** – View full product info in popup
-📦 **Cart Management** – Clean and interactive cart UI
-⚡ **Context API** – No prop drilling, global state handling
-🎨 **Responsive UI** – Built with Tailwind CSS
+ **Product Listing** – Fetch products dynamically from API
+ **Search & Filter** – Find products easily by category or keyword
+ **Add to Cart** – Add/remove items with global state management
+ **Quantity Control** – Increase/decrease items in cart
+ **Dynamic Pricing** – Real-time subtotal, tax & total calculation
+ **Product Detail Modal** – View full product info in popup
+ **Cart Management** – Clean and interactive cart UI
+ **Context API** – No prop drilling, global state handling
+ **Responsive UI** – Built with Tailwind CSS
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -42,7 +42,7 @@ Sembark Shop is a modern full-stack e-commerce web application built using the M
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```bash
 Sembark/
@@ -61,15 +61,15 @@ Sembark/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone the repository
+###  Clone the repository
 
 ```bash
 git clone https://github.com/ayushpachare/Sembark_Shop.git
 ```
 
-### 2️⃣ Setup Frontend
+###  Setup Frontend
 
 ```bash
 cd client
@@ -77,7 +77,7 @@ npm install
 npm run dev
 ```
 
-### 3️⃣ Setup Backend
+###  Setup Backend
 
 ```bash
 cd server
@@ -87,7 +87,7 @@ npx ts-node index.ts
 
 ---
 
-## 🌐 API Endpoint
+## API Endpoint
 
 ```bash
 GET /api/products
@@ -95,7 +95,7 @@ GET /api/products
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * State management using Context API
 * Handling real-time UI updates
@@ -105,28 +105,18 @@ GET /api/products
 
 ---
 
-## 🚧 Future Improvements
-
-* 💳 Payment Integration (Stripe/Razorpay)
-* 🔐 Authentication (Login/Register)
-* 📦 Order Tracking System
-* 💾 Cart persistence using LocalStorage
-* 🌍 Deployment (Vercel + Render)
-
----
-
-## 👨‍💻 Author
+##  Author
 
 **Ayush Pachare**
 
-📧 [ayushpacharee125@gmail.com](mailto:ayushpacharee125@gmail.com)
-📱 7898665795
+ [ayushpacharee125@gmail.com](mailto:ayushpacharee125@gmail.com)
+ 7898665795
 
 ---
 
-## ⭐ Show Your Support
+##  Show Your Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you like this project, give it a on GitHub!
 
 ---
 
